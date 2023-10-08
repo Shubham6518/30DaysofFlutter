@@ -35,7 +35,7 @@ class _LoginPageState extends State<LoginPage> {
           child: Column(
             children: [
               Image.asset(
-                "assets/images/login_image.png",
+                "assets/images/hey.png",
                 fit: BoxFit.cover,
               ),
               SizedBox(
@@ -95,7 +95,6 @@ class _LoginPageState extends State<LoginPage> {
                           BorderRadius.circular(changeButton ? 50 : 8),
                       color: Colors.deepPurple,
                       child: InkWell(
-                          splashColor: Colors.red,
                           onTap: () => moveToHome(context),
                           child: AnimatedContainer(
                             duration: Duration(seconds: 1),
