@@ -1,0 +1,68 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "iPhone 12 Pro",
+            "desc": "Apple iPhone 12th generation",
+            "price": 999,
+            "color": "#33505a",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRISJ6msIu4AU9_M9ZnJVQVFmfuhfyJjEtbUm3ZK11_8IV9TV25-1uM5wHjiFNwKy99w0mR5Hk&usqp=CAc"
+        },
+        {
+            "id": 2,
+            "name": "Pixel 5",
+            "desc": "Google Pixel phone 5th generation",
+            "price": 699,
+            "color": "#00ac51",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd0JhwLvm_uLDLc-la7hK9WyVpe9naJFcebKfhcICiq2KtvXDePNAU_9QO06LPcQ0K0fLByc7m&usqp=CAc"
+        },
+        {
+            "id": 3,
+            "name": "M1 Macbook Air",
+            "desc": "Apple Macbook air with apple silicon",
+            "price": 1099,
+            "color": "#e0bfae",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMOMstwtmLnjFb3NHiDJ_kcQnueNVH-rv_3ps96HZmXlFumKWaiBqq_L4Uoyx3iFiNTrXNEbyB&usqp=CAc"
+        },
+        {
+            "id": 4,
+            "name": "Playstation 5",
+            "desc": "Sony Playstation 5th generation",
+            "price": 500,
+            "color": "#544ee4",
+            "image": "data:image/jpeg;base64,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"
+        },
+        {
+            "id": 5,
+            "name": "Airpods Pro",
+            "desc": "Apple Aipods Pro 1st generation",
+            "price": 200,
+            "color": "#e3e4e9",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQROEs084z65psoo06zYl5R0tUzywOVKVQZzmzqCj3PDP1vVJTWv3gGwGMFENSy4qV4n7sEQjE&usqp=CAc"
+        },
+        {
+            "id": 6,
+            "name": "iPad Pro",
+            "desc": "Apple iPad Pro 2020 edition",
+            "price": 799,
+            "color": "#f73984",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNzUeRQ5uH7E3hpECib8qxdhfHv6SnUGT7mOsew_xiOoqRR7ZpdH-TQ4J6-HuIEfqHimYyPXWH&usqp=CAc"
+        },
+        {
+            "id": 7,
+            "name": "Galaxy S21 Ultra",
+            "desc": "Samsung Galaxy S21 Ultra 2021 edition",
+            "price": 1299,
+            "color": "#1c1c1c",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT_PZcc0wicVYR992s5QCIDLYy8t-z-9kibTUdWZBN2sd86aaqdAJfhvxAwZNWV9wfdzDikpr1&usqp=CAc"
+        },
+        {
+            "id": 8,
+            "name": "Galaxy S21",
+            "desc": "Samsung Galaxy S21 2021 edition",
+            "price": 899,
+            "color": "#7c95eb",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBNHd7FwarbxA1xdMFt24KazjcR4dWPH_t_T5dz4YNK1s7rJAQ8gOIuR_NRw6eeiQgFhbZ9sAN&usqp=CAc"
+        }
+    ]
+}
