@@ -56,18 +56,17 @@ class CartTotal extends StatelessWidget {
   }
 }
 
-class _CartList extends StatefulWidget {
-  @override
-  State<_CartList> createState() => __CartListState();
-}
-
-class __CartListState extends State<_CartList> {
+class _CartList extends StatelessWidget {
   final _cart = CartModel();
-
   @override
   Widget build(BuildContext context) {
     return _cart.items.isEmpty
-        ? "Nothing to show".text.xl3.bold.color(MyTheme.darkBluishColor).makeCentered()
+        ? "Nothing to show"
+            .text
+            .xl3
+            .bold
+            .color(MyTheme.darkBluishColor)
+            .makeCentered()
         : ListView.builder(
             itemCount: _cart.items.length,
             itemBuilder: (context, index) => ListTile(
@@ -75,7 +74,6 @@ class __CartListState extends State<_CartList> {
               trailing: IconButton(
                 onPressed: () {
                   _cart.remove(_cart.items[index]);
-                  setState(() {});
                 },
                 icon: Icon(Icons.remove_circle_outline),
               ),
