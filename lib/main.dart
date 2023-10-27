@@ -8,10 +8,11 @@ import 'package:flutter_catalog/pages/login_page.dart';
 import 'package:flutter_catalog/utils/routes.dart';
 import 'package:flutter_catalog/widgets/themes.dart';
 import 'package:velocity_x/velocity_x.dart';
+import 'package:url_strategy/url_strategy.dart';
 
 void main() {
-  runApp(VxState(store: MyStore(),
-  child: MyApp()));
+  setPathUrlStrategy();
+  runApp(VxState(store: MyStore(), child: MyApp()));
 }
 
 class MyApp extends StatelessWidget {
@@ -27,8 +28,8 @@ class MyApp extends StatelessWidget {
       initialRoute: MyRoutes.homeRoute,
       routes: {
         MyRoutes.loginRoute: (context) => LoginPage(),
-        MyRoutes.homeRoute:(context) => HomePage(),
-        MyRoutes.cartRoute:(context) => CartPage(),
+        MyRoutes.homeRoute: (context) => HomePage(),
+        MyRoutes.cartRoute: (context) => CartPage(),
       },
     );
   }
